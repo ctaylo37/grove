@@ -1,0 +1,59 @@
+.btn-primary{
+	background-color: $brand;
+	border: transparent;
+
+	&:hover, &:focus{
+		background-color: darken($brand, 8%);
+		border: transparent;
+	}
+}
+
+.btn-default{
+	background-color: $grey-2;
+	border: transparent;
+	color: $grey-4;
+
+	&:hover, &:focus{
+		background-color: darken($grey-2, 8%);
+		border: transparent;
+		color: $grey-4;
+	}
+}
+
+.btn-twitter{
+	background-color: #1b95e0;
+	border: transparent;
+	color: $paper;
+
+	&:hover, &:focus{
+		background-color: darken(#1b95e0, 8%);
+		border: transparent;
+		color: $paper;
+	}
+}
+
+.btn-facebook{
+	background-color: #4267b2;
+	border: transparent;
+	color: $paper;
+
+	&:hover, &:focus{
+		background-color: darken(#4267b2, 8%);
+		border: transparent;
+		color: $paper;
+	}
+}
+
+.btn-dot{
+	background-color: lighten($brand, 10%);
+	box-shadow: 0 0 0 9px lighten($brand, 30%);
+	width: 18px;
+	height: 18px;
+	border-radius: 9px;
+	padding: 0;
+
+	&:hover, &:focus{
+		background-color: lighten($brand, 5%);
+	box-shadow: 0 0 0 9px lighten($brand, 20%);
+	}
+}

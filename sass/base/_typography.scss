@@ -1,0 +1,55 @@
+h1{
+	font-weight: 100;
+	color: $grey-5;
+	font-size: 1.4rem;
+}
+
+h2{
+	font-weight: 400;
+	color: $grey-5;
+	font-size: 1rem;
+}
+
+h3{
+	font-weight: 100;
+	color: $grey-4;
+	font-size: 0.9rem;
+}
+
+p{
+	color: $grey-3;
+	line-height: 1.5;
+}
+
+h2, label{
+	font-weight: 400;
+	color: $grey-5;
+}
+
+.divider{
+	position: relative;
+	display: block;
+	padding: 18px 0;
+
+	label{
+		font-size: 0.8rem;
+		text-transform: uppercase;
+		color: $grey-3;
+		display: relative;
+		background-color: $grey-1;
+		padding-right: 6px;
+		position: relative;
+		z-index: 20;
+	}
+
+	span{
+		height: 1px;
+		background-color: $grey-2;
+		position: absolute;
+		margin: 0 15px;
+		top: 9px;
+		left: 0;
+		right: 0;
+		z-index: 10;
+	}
+}
