@@ -10571,32 +10571,45 @@ stretchRight
 }
 
 /* line 23, ../sass/components/_buttons.scss */
+.btn-hollow {
+  background-color: transparent;
+  border-color: #3498DB;
+  color: #3498DB;
+}
+/* line 28, ../sass/components/_buttons.scss */
+.btn-hollow:hover, .btn-hollow:focus, .btn-hollow.active {
+  background-color: #3498DB;
+  border-color: #3498DB;
+  color: #ffffff;
+}
+
+/* line 35, ../sass/components/_buttons.scss */
 .btn-twitter {
   background-color: #1b95e0;
   border: transparent;
   color: #ffffff;
 }
-/* line 28, ../sass/components/_buttons.scss */
+/* line 40, ../sass/components/_buttons.scss */
 .btn-twitter:hover, .btn-twitter:focus {
   background-color: #177dbc;
   border: transparent;
   color: #ffffff;
 }
 
-/* line 35, ../sass/components/_buttons.scss */
+/* line 47, ../sass/components/_buttons.scss */
 .btn-facebook {
   background-color: #4267b2;
   border: transparent;
   color: #ffffff;
 }
-/* line 40, ../sass/components/_buttons.scss */
+/* line 52, ../sass/components/_buttons.scss */
 .btn-facebook:hover, .btn-facebook:focus {
   background-color: #375694;
   border: transparent;
   color: #ffffff;
 }
 
-/* line 47, ../sass/components/_buttons.scss */
+/* line 59, ../sass/components/_buttons.scss */
 .btn-dot {
   background-color: #5faee3;
   box-shadow: 0 0 0 9px #b6daf2;
@@ -10605,7 +10618,7 @@ stretchRight
   border-radius: 9px;
   padding: 0;
 }
-/* line 55, ../sass/components/_buttons.scss */
+/* line 67, ../sass/components/_buttons.scss */
 .btn-dot:hover, .btn-dot:focus {
   background-color: #4aa3df;
   box-shadow: 0 0 0 9px #8bc4ea;
@@ -10748,12 +10761,19 @@ form {
 }
 
 /* line 1, ../sass/pages/_explore.scss */
+#floor-switch {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+/* line 7, ../sass/pages/_explore.scss */
 .plan-container {
   position: relative;
   display: block;
   margin: 12px auto;
 }
-/* line 6, ../sass/pages/_explore.scss */
+/* line 12, ../sass/pages/_explore.scss */
 .plan-container .plan-layer {
   position: absolute;
   top: 0;
@@ -10764,7 +10784,7 @@ form {
   background-repeat: no-repeat;
   z-index: 10;
 }
-/* line 17, ../sass/pages/_explore.scss */
+/* line 23, ../sass/pages/_explore.scss */
 .plan-container .btn-layer {
   position: absolute;
   top: 0;
@@ -10773,166 +10793,49 @@ form {
   right: 0;
   z-index: 20;
 }
-/* line 25, ../sass/pages/_explore.scss */
+/* line 31, ../sass/pages/_explore.scss */
 .plan-container .btn-layer .btn {
   position: absolute;
 }
-/* line 30, ../sass/pages/_explore.scss */
-.plan-container#house-plan {
+/* line 36, ../sass/pages/_explore.scss */
+.plan-container#main-plan {
   width: 326px;
-  height: 612px;
+  height: 1374px;
 }
-/* line 34, ../sass/pages/_explore.scss */
-.plan-container#house-plan .plan-layer {
-  background-image: url(../img/plans/house.svg);
+/* line 40, ../sass/pages/_explore.scss */
+.plan-container#main-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_main.svg);
 }
-/* line 38, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-living {
-  top: 80px;
-  left: 50px;
-}
-/* line 43, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-kitchen {
-  top: 80px;
-  right: 120px;
-}
-/* line 48, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-outside {
-  bottom: 108px;
-  right: 0px;
-}
-/* line 53, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-potter {
-  top: 290px;
-  left: 40px;
-}
-/* line 58, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-bath {
+/* line 44, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-bath {
   top: 250px;
   right: 120px;
 }
-/* line 63, ../sass/pages/_explore.scss */
-.plan-container#house-plan #btn-bed {
-  bottom: 130px;
-  left: 110px;
+/* line 51, ../sass/pages/_explore.scss */
+.plan-container#upper-plan {
+  width: 326px;
+  height: 1176px;
+}
+/* line 55, ../sass/pages/_explore.scss */
+.plan-container#upper-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_upper.svg);
+}
+/* line 59, ../sass/pages/_explore.scss */
+.plan-container#upper-plan #btn-bath {
+  top: 250px;
+  right: 120px;
+}
+/* line 66, ../sass/pages/_explore.scss */
+.plan-container#lower-plan {
+  width: 326px;
+  height: 1235px;
 }
 /* line 70, ../sass/pages/_explore.scss */
-.plan-container#living-plan {
-  width: 326px;
-  height: 316px;
+.plan-container#lower-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_lower.svg);
 }
 /* line 74, ../sass/pages/_explore.scss */
-.plan-container#living-plan .plan-layer {
-  background-image: url(../img/plans/living.svg);
-}
-/* line 78, ../sass/pages/_explore.scss */
-.plan-container#living-plan #btn-living-1 {
-  top: 25px;
-  left: 50px;
-}
-/* line 83, ../sass/pages/_explore.scss */
-.plan-container#living-plan #btn-living-2 {
-  top: 92px;
-  left: 150px;
-}
-/* line 88, ../sass/pages/_explore.scss */
-.plan-container#living-plan #btn-living-3 {
-  left: 50px;
-  bottom: 60px;
-}
-/* line 95, ../sass/pages/_explore.scss */
-.plan-container#kitchen-plan {
-  width: 326px;
-  height: 385px;
-}
-/* line 99, ../sass/pages/_explore.scss */
-.plan-container#kitchen-plan .plan-layer {
-  background-image: url(../img/plans/kitchen.svg);
-}
-/* line 103, ../sass/pages/_explore.scss */
-.plan-container#kitchen-plan #btn-kitchen-1 {
-  top: 100px;
-  left: 90px;
-}
-/* line 108, ../sass/pages/_explore.scss */
-.plan-container#kitchen-plan #btn-kitchen-2 {
-  top: 40px;
-  right: 112px;
-}
-/* line 113, ../sass/pages/_explore.scss */
-.plan-container#kitchen-plan #btn-kitchen-3 {
-  top: 230px;
-  right: 50px;
-}
-/* line 120, ../sass/pages/_explore.scss */
-.plan-container#potter-plan {
-  width: 326px;
-  height: 450px;
-}
-/* line 124, ../sass/pages/_explore.scss */
-.plan-container#potter-plan .plan-layer {
-  background-image: url(../img/plans/potter.svg);
-}
-/* line 128, ../sass/pages/_explore.scss */
-.plan-container#potter-plan #btn-potter-1 {
-  bottom: 30px;
-  left: 50px;
-}
-/* line 133, ../sass/pages/_explore.scss */
-.plan-container#potter-plan #btn-potter-2 {
-  bottom: 140px;
-  left: 100px;
-}
-/* line 140, ../sass/pages/_explore.scss */
-.plan-container#bath-plan {
-  width: 326px;
-  height: 389px;
-}
-/* line 144, ../sass/pages/_explore.scss */
-.plan-container#bath-plan .plan-layer {
-  background-image: url(../img/plans/bath.svg);
-}
-/* line 148, ../sass/pages/_explore.scss */
-.plan-container#bath-plan #btn-bath-1 {
-  top: 30px;
-  right: 50px;
-}
-/* line 153, ../sass/pages/_explore.scss */
-.plan-container#bath-plan #btn-bath-2 {
-  bottom: 200px;
-  right: 50px;
-}
-/* line 160, ../sass/pages/_explore.scss */
-.plan-container#bed-plan {
-  width: 326px;
-  height: 324px;
-}
-/* line 164, ../sass/pages/_explore.scss */
-.plan-container#bed-plan .plan-layer {
-  background-image: url(../img/plans/bed.svg);
-}
-/* line 168, ../sass/pages/_explore.scss */
-.plan-container#bed-plan #btn-bed-1 {
-  bottom: 150px;
-  left: 30px;
-}
-/* line 173, ../sass/pages/_explore.scss */
-.plan-container#bed-plan #btn-bed-2 {
-  bottom: 145px;
-  right: 19px;
-}
-/* line 178, ../sass/pages/_explore.scss */
-.plan-container#bed-plan #btn-bed-3 {
-  top: 50px;
-  left: 100px;
-}
-/* line 183, ../sass/pages/_explore.scss */
-.plan-container#bed-plan #btn-bed-4 {
-  bottom: 70px;
-  left: 30px;
-}
-/* line 188, ../sass/pages/_explore.scss */
-.plan-container#bed-plan #btn-bed-5 {
-  bottom: 70px;
-  right: 130px;
+.plan-container#lower-plan #btn-bath {
+  top: 250px;
+  right: 120px;
 }

@@ -1,3 +1,9 @@
+#floor-switch{
+	display: flex;
+	justify-content: center;
+	padding: 12px 0;
+}
+
 .plan-container{
 	position: relative;
 	display: block;
@@ -27,169 +33,49 @@
 		}
 	}
 
-	&#house-plan{
+	&#main-plan{
 		width: 326px;
-		height: 612px;
+		height: 1374px;
 		
 		.plan-layer{
-			background-image: url(../img/plans/house.svg);
-		}
-
-		#btn-living{
-			top: 80px;
-			left: 50px;
-		}
-
-		#btn-kitchen{
-			top: 80px;
-			right: 120px;
-		}
-
-		#btn-outside{
-			bottom: 108px;
-			right: 0px;
-		}
-
-		#btn-potter{
-			top: 290px;
-			left: 40px;
+			background-image: url(../img/plans/floorplan_main.svg);
 		}
 
 		#btn-bath{
 			top: 250px;
 			right: 120px;
 		}
+		
+	}
 
-		#btn-bed{
-			bottom: 130px;
-			left: 110px;
+	&#upper-plan{
+		width: 326px;
+		height: 1176px;
+		
+		.plan-layer{
+			background-image: url(../img/plans/floorplan_upper.svg);
+		}
+
+		#btn-bath{
+			top: 250px;
+			right: 120px;
 		}
 		
 	}
 
-	&#living-plan{
+	&#lower-plan{
 		width: 326px;
-		height: 316px;
-
+		height: 1235px;
+		
 		.plan-layer{
-			background-image: url(../img/plans/living.svg);
+			background-image: url(../img/plans/floorplan_lower.svg);
 		}
 
-		#btn-living-1{
-			top: 25px;
-    	left: 50px;
+		#btn-bath{
+			top: 250px;
+			right: 120px;
 		}
-
-		#btn-living-2{
-			top: 92px;
-    	left: 150px;
-		}
-
-		#btn-living-3{
-			left: 50px;
-    	bottom: 60px;
-		}
-
-	}
-
-	&#kitchen-plan{
-		width: 326px;
-		height: 385px;
-
-		.plan-layer{
-			background-image: url(../img/plans/kitchen.svg);
-		}
-
-		#btn-kitchen-1{
-			top: 100px;
-			left: 90px;
-		}
-
-		#btn-kitchen-2{
-			top: 40px;
-			right: 112px;
-		}
-
-		#btn-kitchen-3{
-	    top: 230px;
-    	right: 50px;
-		}
-
-	}
-
-	&#potter-plan{
-		width: 326px;
-		height: 450px;
-
-		.plan-layer{
-			background-image: url(../img/plans/potter.svg);
-		}
-
-		#btn-potter-1{
-			bottom: 30px;
-			left: 50px;
-		}
-
-		#btn-potter-2{
-			bottom: 140px;
-			left: 100px;
-		}
-
-	}
-
-	&#bath-plan{
-		width: 326px;
-		height: 389px;
-
-		.plan-layer{
-			background-image: url(../img/plans/bath.svg);
-		}
-
-		#btn-bath-1{
-			top: 30px;
-			right: 50px;
-		}
-
-		#btn-bath-2{
-			bottom: 200px;
-			right: 50px;
-		}
-
-	}
-
-	&#bed-plan{
-		width: 326px;
-		height: 324px;
-
-		.plan-layer{
-			background-image: url(../img/plans/bed.svg);
-		}
-
-		#btn-bed-1{
-			bottom: 150px;
-    	left: 30px;
-		}
-
-		#btn-bed-2{
-			bottom: 145px;
-    	right: 19px;
-		}
-
-		#btn-bed-3{
-			top: 50px;
-    	left: 100px;
-		}
-
-		#btn-bed-4{
-			bottom: 70px;
-    	left: 30px;
-		}
-
-		#btn-bed-5{
-			bottom: 70px;
-    	right: 130px;
-		}
-
+		
 	}
 
 }

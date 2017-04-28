@@ -20,6 +20,18 @@
 	}
 }
 
+.btn-hollow{
+	background-color: transparent;
+	border-color: $brand;
+	color: $brand;
+
+	&:hover, &:focus, &.active{
+		background-color: $brand;
+		border-color: $brand;
+		color: $paper;
+	}
+}
+
 .btn-twitter{
 	background-color: #1b95e0;
 	border: transparent;
