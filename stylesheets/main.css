@@ -10812,30 +10812,30 @@ form {
   right: 120px;
 }
 /* line 51, ../sass/pages/_explore.scss */
-.plan-container#upper-plan {
+.plan-container#second-plan {
   width: 326px;
   height: 1176px;
 }
 /* line 55, ../sass/pages/_explore.scss */
-.plan-container#upper-plan .plan-layer {
-  background-image: url(../img/plans/floorplan_upper.svg);
+.plan-container#second-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_second.svg);
 }
 /* line 59, ../sass/pages/_explore.scss */
-.plan-container#upper-plan #btn-bath {
+.plan-container#second-plan #btn-bath {
   top: 250px;
   right: 120px;
 }
 /* line 66, ../sass/pages/_explore.scss */
-.plan-container#lower-plan {
+.plan-container#third-plan {
   width: 326px;
-  height: 1235px;
+  height: 1176px;
 }
 /* line 70, ../sass/pages/_explore.scss */
-.plan-container#lower-plan .plan-layer {
-  background-image: url(../img/plans/floorplan_lower.svg);
+.plan-container#third-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_third.svg);
 }
 /* line 74, ../sass/pages/_explore.scss */
-.plan-container#lower-plan #btn-bath {
+.plan-container#third-plan #btn-bath {
   top: 250px;
   right: 120px;
 }
