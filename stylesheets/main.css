@@ -10748,8 +10748,9 @@ form {
   background-position: center center;
   background-repeat: no-repeat;
   background-color: #3498DB;
+  background-size: cover;
 }
-/* line 16, ../sass/pages/_home.scss */
+/* line 17, ../sass/pages/_home.scss */
 #home #hero a {
   position: absolute;
   top: 0;
@@ -10759,16 +10760,16 @@ form {
   background: -webkit-linear-gradient(bottom, #1c2833, rgba(28, 40, 51, 0));
   padding: 100px 0;
 }
-/* line 25, ../sass/pages/_home.scss */
+/* line 26, ../sass/pages/_home.scss */
 #home #hero a i {
   color: rgba(255, 255, 255, 0.6);
   font-size: 60px;
 }
-/* line 31, ../sass/pages/_home.scss */
+/* line 32, ../sass/pages/_home.scss */
 #home #hero a:hover i {
   color: #ffffff;
 }
-/* line 38, ../sass/pages/_home.scss */
+/* line 39, ../sass/pages/_home.scss */
 #home .container {
   margin-top: -60px;
   margin-bottom: 60px;
@@ -10812,43 +10813,147 @@ form {
   position: absolute;
 }
 /* line 36, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan {
+  width: 328px;
+  height: 1239px;
+}
+/* line 40, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan .plan-layer {
+  background-image: url(../img/plans/floorplan_cellar.svg);
+}
+/* line 44, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-1 {
+  left: 100px;
+  top: 100px;
+}
+/* line 49, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-2 {
+  left: 100px;
+  top: 150px;
+}
+/* line 54, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-3 {
+  left: 100px;
+  top: 200px;
+}
+/* line 59, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-4 {
+  left: 100px;
+  top: 250px;
+}
+/* line 64, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-5 {
+  left: 100px;
+  top: 300px;
+}
+/* line 69, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-6 {
+  left: 100px;
+  top: 350px;
+}
+/* line 74, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-7 {
+  left: 100px;
+  top: 400px;
+}
+/* line 79, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-8 {
+  left: 100px;
+  top: 450px;
+}
+/* line 84, ../sass/pages/_explore.scss */
+.plan-container#cellar-plan #btn-cellar-9 {
+  left: 100px;
+  top: 500px;
+}
+/* line 90, ../sass/pages/_explore.scss */
 .plan-container#main-plan {
   width: 326px;
   height: 1374px;
 }
-/* line 40, ../sass/pages/_explore.scss */
+/* line 94, ../sass/pages/_explore.scss */
 .plan-container#main-plan .plan-layer {
   background-image: url(../img/plans/floorplan_main.svg);
 }
-/* line 44, ../sass/pages/_explore.scss */
-.plan-container#main-plan #btn-bath {
-  top: 250px;
-  right: 120px;
+/* line 98, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-1 {
+  left: 200px;
+  bottom: 200px;
 }
-/* line 51, ../sass/pages/_explore.scss */
+/* line 103, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-2 {
+  left: 200px;
+  bottom: 437px;
+}
+/* line 108, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-3 {
+  left: 123px;
+  bottom: 200px;
+}
+/* line 113, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-4 {
+  left: 157px;
+  bottom: 19px;
+}
+/* line 118, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-5 {
+  left: 55px;
+  bottom: 152px;
+}
+/* line 123, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-6 {
+  left: 55px;
+  bottom: 216px;
+}
+/* line 128, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-7 {
+  left: 55px;
+  bottom: 344px;
+}
+/* line 133, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-8 {
+  left: 55px;
+  bottom: 276px;
+}
+/* line 138, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-9 {
+  left: 55px;
+  bottom: 399px;
+}
+/* line 143, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-10 {
+  left: 55px;
+  bottom: 450px;
+}
+/* line 148, ../sass/pages/_explore.scss */
+.plan-container#main-plan #btn-family-11 {
+  right: 20px;
+  bottom: 200px;
+}
+/* line 154, ../sass/pages/_explore.scss */
 .plan-container#second-plan {
   width: 326px;
   height: 1176px;
 }
-/* line 55, ../sass/pages/_explore.scss */
+/* line 158, ../sass/pages/_explore.scss */
 .plan-container#second-plan .plan-layer {
   background-image: url(../img/plans/floorplan_second.svg);
 }
-/* line 59, ../sass/pages/_explore.scss */
+/* line 162, ../sass/pages/_explore.scss */
 .plan-container#second-plan #btn-bath {
   top: 250px;
   right: 120px;
 }
-/* line 66, ../sass/pages/_explore.scss */
+/* line 168, ../sass/pages/_explore.scss */
 .plan-container#third-plan {
   width: 326px;
   height: 1176px;
 }
-/* line 70, ../sass/pages/_explore.scss */
+/* line 172, ../sass/pages/_explore.scss */
 .plan-container#third-plan .plan-layer {
   background-image: url(../img/plans/floorplan_third.svg);
 }
-/* line 74, ../sass/pages/_explore.scss */
+/* line 176, ../sass/pages/_explore.scss */
 .plan-container#third-plan #btn-bath {
   top: 250px;
   right: 120px;
