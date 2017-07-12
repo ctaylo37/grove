@@ -10823,48 +10823,48 @@ form {
 }
 /* line 44, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-1 {
-  left: 100px;
-  top: 100px;
+  left: 170px;
+  top: 650px;
 }
 /* line 49, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-2 {
-  left: 100px;
-  top: 150px;
+  left: 60px;
+  top: 712px;
 }
 /* line 54, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-3 {
-  left: 100px;
-  top: 200px;
+  right: 60px;
+  top: 650px;
 }
 /* line 59, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-4 {
-  left: 100px;
-  top: 250px;
+  right: 60px;
+  top: 500px;
 }
 /* line 64, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-5 {
-  left: 100px;
-  top: 300px;
+  left: 170px;
+  top: 450px;
 }
 /* line 69, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-6 {
-  left: 100px;
-  top: 350px;
+  right: 60px;
+  top: 400px;
 }
 /* line 74, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-7 {
-  left: 100px;
-  top: 400px;
+  left: 170px;
+  top: 300px;
 }
 /* line 79, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-8 {
-  left: 100px;
-  top: 450px;
+  right: 30px;
+  top: 200px;
 }
 /* line 84, ../sass/pages/_explore.scss */
 .plan-container#cellar-plan #btn-cellar-9 {
-  left: 100px;
-  top: 500px;
+  right: 60px;
+  top: 710px;
 }
 /* line 90, ../sass/pages/_explore.scss */
 .plan-container#main-plan {
