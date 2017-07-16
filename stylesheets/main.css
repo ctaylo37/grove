@@ -11087,3 +11087,67 @@ form {
   top: 540px;
   left: 160px;
 }
+/* line 310, ../sass/pages/_explore.scss */
+.plan-container#roof-plan {
+  width: 345px;
+  height: 460px;
+}
+/* line 314, ../sass/pages/_explore.scss */
+.plan-container#roof-plan .plan-layer {
+  background-image: url(../img/plans/roof.jpg);
+}
+/* line 318, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-1 {
+  top: 200px;
+  left: 140px;
+}
+/* line 323, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-2 {
+  top: 173px;
+  left: 50px;
+}
+/* line 328, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-3 {
+  top: 350px;
+  left: 170px;
+}
+/* line 333, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-4 {
+  top: 350px;
+  left: 230px;
+}
+/* line 338, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-5 {
+  top: 350px;
+  left: 50px;
+}
+/* line 343, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-6 {
+  top: 160px;
+  left: 230px;
+}
+/* line 348, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-7 {
+  top: 130px;
+  left: 140px;
+}
+/* line 353, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-8 {
+  top: 260px;
+  left: 140px;
+}
+/* line 358, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-9 {
+  top: 450px;
+  left: 170px;
+}
+/* line 363, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-10 {
+  top: 160px;
+  left: 290px;
+}
+/* line 368, ../sass/pages/_explore.scss */
+.plan-container#roof-plan #btn-roof-11 {
+  top: 210px;
+  left: 320px;
+}
