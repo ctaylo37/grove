@@ -52,15 +52,19 @@
 	<div class="content">
 		<div class="container">
 
-			<!-- Tabs -->
-			<div id="floor-switch" class="row">
+			<!-- Selector -->
+			<div class="row">
 				<div class="col-md-12">
-					<ul class="nav nav-pills">
-				    <li role="presentation"><a href="#cellar" aria-controls="cellar" role="tab" data-toggle="tab">Cellar</a></li>
-				    <li role="presentation" class="active"><a href="#main" aria-controls="main" role="tab" data-toggle="tab">Main</a></li>
-				    <li role="presentation"><a href="#second" aria-controls="second" role="tab" data-toggle="tab">Second</a></li>
-				    <li role="presentation"><a href="#third" aria-controls="third" role="tab" data-toggle="tab">Third</a></li>
-				  </ul>
+					<select id="floor-switch" class="btn btn-block btn-primary">
+						<option value="cellar">Cellar</option>
+						<option value="main" selected>First Floor</option>
+						<option value="second">Second Floor</option>
+						<option value="third">Third Floor</option>
+						<option value="roof">Roof</option>
+						<option value="north">North Facade</option>
+						<option value="south">South Facade</option>
+						<option value="yard">Backyard</option>
+					</select>
 			  </div>
 			</div>	
 
@@ -69,7 +73,7 @@
 				<div class="tab-content">
 
 					<!-- Cellar Plan -->
-			    <div role="tabpanel" class="tab-pane" id="cellar">
+			    <div class="hide" id="cellar">
 			    	<div id="cellar-plan" class="plan-container">
 							<div class="plan-layer"></div>
 							<div id="main-plan-buttons" class="btn-layer">
@@ -87,7 +91,7 @@
 			    </div>
 
 			    <!-- Main Level Plan -->
-			    <div role="tabpanel" class="tab-pane active" id="main">
+			    <div class="" id="main">
 			    	<div id="main-plan" class="plan-container">
 							<div class="plan-layer"></div>
 							<div id="main-plan-buttons" class="btn-layer">
@@ -115,27 +119,45 @@
 			    </div>
 
 			    <!-- Second Level PLan -->
-			    <div role="tabpanel" class="tab-pane" id="second">
+			    <div class="hide" id="second">
 			    	<div id="second-plan" class="plan-container">
 							<div class="plan-layer"></div>
 							<div id="second-plan-buttons" class="btn-layer">
-								<a id="btn-bed-1" href="#bed-1-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-1" href="#second-living-1-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-2" href="#second-living-2-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-3" href="#second-living-3-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-4" href="#second-living-4-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-5" href="#second-living-5-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-6" href="#second-living-6-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-7" href="#second-living-7-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-8" href="#second-living-8-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-9" href="#second-living-9-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-second-living-10" href="#second-living-10-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
 							</div>
 						</div>
 			    </div>
 
 			    <!-- Third Level PLan -->
-			    <div role="tabpanel" class="tab-pane" id="third">
+			    <div class="hide" id="third">
 			    	<div id="third-plan" class="plan-container">
 							<div class="plan-layer"></div>
 							<div id="third-plan-buttons" class="btn-layer">
-								<a id="btn-bed-1" href="#bed-1-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-1" href="#third-1-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-2" href="#third-2-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-3" href="#third-3-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-4" href="#third-4-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-5" href="#third-5-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-7" href="#third-7-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-8" href="#third-8-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-9" href="#third-9-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-10" href="#third-10-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-11" href="#third-11-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
+								<a id="btn-third-12" href="#third-12-feature" data-toggle="modal" class="btn btn-dot pulse"></a>
 							</div>
 						</div>
 			    </div>
-
+			    
 			  </div>
-
 			</div>
 		</div>
 	</div>
@@ -644,6 +666,388 @@
 	    </div><!-- /.modal-content -->
 	  </div><!-- /.modal-dialog -->
 	</div><!-- /.modal -->
+
+	<!-- Second Floor Living -->
+	
+	<div id="second-living-1-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Why have the common area on the second floor?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-2-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Aging in place kitchen thoughts. </h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-3-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Our once a month pantries for living program.</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-4-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Circadian lighting, the control system and why complement the space with salubrious lighting for our mentor tenants.</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-5-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Pocket doors, why?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-6-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Klee Klamp railings, what's special?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-7-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Filtered water spigots.</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-8-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>The half wall - how come?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-9-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Stairway safety</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="second-living-10-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Gathering and managing light</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<!-- Third Floor -->
+	
+	<div id="third-1-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Limiting summer sun</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-2-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Why each suite has individual mini split units?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-3-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Leveraging the ceiling slope</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-4-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Why glass block?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-5-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Shared washer and dryer</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-7-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Natural & LED lighting</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-8-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Why ceiling fans?</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-9-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Flooring decisions</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-10-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Comfort sound attenuation investments for better sleeping</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-11-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Passive house quality roof hatch</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<div id="third-12-feature" class="modal feature-modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <img src="img/thumb.png">
+	      </div>
+	      <div class="modal-body">
+	        <div class="row">
+	        	<h1>Filtered Water</h1>
+	        </div>
+	      </div>
+	      <div class="modal-footer text-center">
+	        <a href="#" data-dismiss="modal">Close</a>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 	
 
 	<!-- Scripts -->
@@ -656,5 +1060,35 @@
 		  $(this).tab('show')
 		})
 	</script>
+
+	<script type="text/javascript">
+	  $('#floor-switch').change(function(){
+	    if($(this).val() == 'cellar'){ 
+	      $("#cellar").removeClass("hide");
+	    }
+	    else{
+	      $("#cellar").addClass("hide");
+	    }
+	    if($(this).val() == 'main'){ 
+	      $("#main").removeClass("hide");
+	    }
+	    else{
+	      $("#main").addClass("hide");
+	    }
+	    if($(this).val() == 'second'){ 
+	      $("#second").removeClass("hide");
+	    }
+	    else{
+	      $("#second").addClass("hide");
+	    }
+	    if($(this).val() == 'third'){ 
+	      $("#third").removeClass("hide");
+	    }
+	    else{
+	      $("#third").addClass("hide");
+	    }
+	  });
+	</script>
+
 </body>
 </html>
