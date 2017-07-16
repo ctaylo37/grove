@@ -4,6 +4,22 @@
   display: block;
 }
 
+.multiselect-native-select .dropdown-menu{
+	width: 340px;
+}
+
+.multiselect-native-select .radio input[type="radio"]{
+	display: none;
+}
+
+.multiselect-native-select li .radio{
+	padding: 12px 18px;
+}
+
+.multiselect-native-select li.active .radio{
+	color: white;
+}
+
 .hide{
 	display: none;
 }
