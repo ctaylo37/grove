@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -8793,6 +8793,11 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, ../sass/utils/_quick-classes.scss */
+hr {
+  border-color: #cccccc;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -9351,13 +9356,18 @@ h2, label {
   color: #1C2833;
 }
 
-/* line 29, ../sass/base/_typography.scss */
+/* line 30, ../sass/base/_typography.scss */
+h1.light, h2.light, h3.light, h4.light, p.light {
+  color: #ffffff;
+}
+
+/* line 35, ../sass/base/_typography.scss */
 .divider {
   position: relative;
   display: block;
   padding: 18px 0;
 }
-/* line 34, ../sass/base/_typography.scss */
+/* line 40, ../sass/base/_typography.scss */
 .divider label {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -9368,7 +9378,7 @@ h2, label {
   position: relative;
   z-index: 20;
 }
-/* line 45, ../sass/base/_typography.scss */
+/* line 51, ../sass/base/_typography.scss */
 .divider span {
   height: 1px;
   background-color: #D5D8DC;
@@ -11238,51 +11248,51 @@ form {
 }
 /* line 455, ../sass/pages/_explore.scss */
 .plan-container#south-plan {
-  width: 345px;
-  height: 460px;
+  width: 361px;
+  height: 640px;
 }
 /* line 459, ../sass/pages/_explore.scss */
 .plan-container#south-plan .plan-layer {
-  background-image: url(../img/thumb.png);
+  background-image: url(../img/plans/south.jpg);
 }
 /* line 463, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-1 {
-  top: 100px;
-  left: 100px;
+  top: 346px;
+  left: 170px;
 }
 /* line 468, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-2 {
-  top: 150px;
-  left: 100px;
+  top: 550px;
+  left: 70px;
 }
 /* line 473, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-3 {
-  top: 200px;
-  left: 100px;
+  top: 550px;
+  left: 300px;
 }
 /* line 478, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-4 {
-  top: 250px;
-  left: 100px;
+  top: 120px;
+  left: 30px;
 }
 /* line 483, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-5 {
-  top: 300px;
+  top: 430px;
   left: 100px;
 }
 /* line 488, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-6 {
-  top: 350px;
-  left: 100px;
+  top: 260px;
+  left: 160px;
 }
 /* line 493, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-7 {
-  top: 400px;
-  left: 100px;
+  top: 360px;
+  left: 320px;
 }
 /* line 498, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-8 {
-  top: 450px;
+  top: 190px;
   left: 100px;
 }
 /* line 504, ../sass/pages/_explore.scss */
