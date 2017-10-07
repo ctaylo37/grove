@@ -64,8 +64,14 @@
 	border-radius: 9px;
 	padding: 0;
 
-	&:hover, &:focus{
+	&:hover, &:focus, &:active{
 		background-color: lighten($brand, 5%);
 		box-shadow: 0 0 0 9px lighten($brand, 20%);
 	}
+
+}
+
+a.btn-dot:target{
+	background-color: purple;
+	box-shadow: 0 0 0 9px pink;
 }

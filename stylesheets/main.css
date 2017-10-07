@@ -10629,9 +10629,15 @@ stretchRight
   padding: 0;
 }
 /* line 67, ../sass/components/_buttons.scss */
-.btn-dot:hover, .btn-dot:focus {
+.btn-dot:hover, .btn-dot:focus, .btn-dot:active {
   background-color: #4aa3df;
   box-shadow: 0 0 0 9px #8bc4ea;
+}
+
+/* line 74, ../sass/components/_buttons.scss */
+a.btn-dot:target {
+  background-color: purple;
+  box-shadow: 0 0 0 9px pink;
 }
 
 /* line 1, ../sass/components/_inputs.scss */
@@ -11185,66 +11191,66 @@ form {
 /* line 391, ../sass/pages/_explore.scss */
 .plan-container#north-plan {
   width: 345px;
-  height: 460px;
+  height: 543px;
 }
 /* line 395, ../sass/pages/_explore.scss */
 .plan-container#north-plan .plan-layer {
-  background-image: url(../img/thumb.png);
+  background-image: url(../img/plans/north.jpg);
 }
 /* line 399, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-1 {
-  top: 100px;
-  left: 100px;
+  top: 10px;
+  left: 220px;
 }
 /* line 404, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-2 {
   top: 150px;
-  left: 100px;
+  left: 150px;
 }
 /* line 409, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-3 {
-  top: 200px;
-  left: 100px;
+  top: 100px;
+  left: 220px;
 }
 /* line 414, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-4 {
-  top: 250px;
-  left: 100px;
+  top: 360px;
+  left: 240px;
 }
 /* line 419, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-5 {
-  top: 300px;
-  left: 100px;
+  top: 220px;
+  left: 170px;
 }
 /* line 424, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-6 {
-  top: 350px;
+  top: 400px;
   left: 100px;
 }
 /* line 429, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-7 {
-  top: 400px;
-  left: 100px;
+  top: 440px;
+  left: 300px;
 }
 /* line 434, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-8 {
-  top: 450px;
-  left: 100px;
+  top: 470px;
+  left: 190px;
 }
 /* line 439, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-9 {
-  top: 500px;
-  left: 100px;
+  top: 230px;
+  left: 30px;
 }
 /* line 444, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-10 {
-  top: 550px;
-  left: 100px;
+  top: 480px;
+  left: 40px;
 }
 /* line 449, ../sass/pages/_explore.scss */
 .plan-container#north-plan #btn-north-11 {
-  top: 600px;
-  left: 100px;
+  top: 530px;
+  left: 130px;
 }
 /* line 455, ../sass/pages/_explore.scss */
 .plan-container#south-plan {
@@ -11262,22 +11268,22 @@ form {
 }
 /* line 468, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-2 {
-  top: 550px;
-  left: 70px;
+  top: 520px;
+  left: 210px;
 }
 /* line 473, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-3 {
-  top: 550px;
-  left: 300px;
+  top: 320px;
+  left: 50px;
 }
 /* line 478, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-4 {
-  top: 120px;
-  left: 30px;
+  top: 260px;
+  right: 50px;
 }
 /* line 483, ../sass/pages/_explore.scss */
 .plan-container#south-plan #btn-south-5 {
-  top: 430px;
+  top: 510px;
   left: 100px;
 }
 /* line 488, ../sass/pages/_explore.scss */
@@ -11295,52 +11301,77 @@ form {
   top: 190px;
   left: 100px;
 }
-/* line 504, ../sass/pages/_explore.scss */
+/* line 503, ../sass/pages/_explore.scss */
+.plan-container#south-plan #btn-south-9 {
+  top: 60px;
+  left: 190px;
+}
+/* line 508, ../sass/pages/_explore.scss */
+.plan-container#south-plan #btn-south-10 {
+  top: 424px;
+  left: 200px;
+}
+/* line 513, ../sass/pages/_explore.scss */
+.plan-container#south-plan #btn-south-11 {
+  top: 120px;
+  left: 280px;
+}
+/* line 518, ../sass/pages/_explore.scss */
+.plan-container#south-plan #btn-south-12 {
+  top: 470px;
+  left: 280px;
+}
+/* line 524, ../sass/pages/_explore.scss */
 .plan-container#yard-plan {
   width: 345px;
   height: 460px;
 }
-/* line 508, ../sass/pages/_explore.scss */
+/* line 528, ../sass/pages/_explore.scss */
 .plan-container#yard-plan .plan-layer {
   background-image: url(../img/thumb.png);
 }
-/* line 512, ../sass/pages/_explore.scss */
+/* line 532, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-1 {
   top: 100px;
   left: 100px;
 }
-/* line 517, ../sass/pages/_explore.scss */
+/* line 537, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-2 {
   top: 150px;
   left: 100px;
 }
-/* line 522, ../sass/pages/_explore.scss */
+/* line 542, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-3 {
   top: 200px;
   left: 100px;
 }
-/* line 527, ../sass/pages/_explore.scss */
+/* line 547, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-4 {
   top: 250px;
   left: 100px;
 }
-/* line 532, ../sass/pages/_explore.scss */
+/* line 552, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-5 {
   top: 300px;
   left: 100px;
 }
-/* line 537, ../sass/pages/_explore.scss */
+/* line 557, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-6 {
   top: 350px;
   left: 100px;
 }
-/* line 542, ../sass/pages/_explore.scss */
+/* line 562, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-7 {
   top: 400px;
   left: 100px;
 }
-/* line 547, ../sass/pages/_explore.scss */
+/* line 567, ../sass/pages/_explore.scss */
 .plan-container#yard-plan #btn-yard-8 {
   top: 450px;
+  left: 100px;
+}
+/* line 572, ../sass/pages/_explore.scss */
+.plan-container#yard-plan #btn-yard-9 {
+  top: 500px;
   left: 100px;
 }
